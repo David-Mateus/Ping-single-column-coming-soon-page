@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+html{
+  font-size: 1.25em;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.logo{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h1{
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  margin-bottom: 0.4em;
+}
+span{
+  font-weight: 700;
+  color: black;
+}
+p{
+  font-size: .9em;
+  color: hsl(209, 33%, 12%);
+  font-weight: 300;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#entrada{
+  height: 3em;
+  width: 25em;
+
+  margin-top: 1em;
+  padding-left: 1.2em;
+
+  border-radius: 1.6em;
+  border: .5px solid hsl(223, 87%, 63%);;
+  outline: 0;
+}
+#muda{
+  font-size: .5em;
+  margin-top: 3px;
+  margin-left: 30%;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+#entra{
+  
+  height: 3em;
+  width: 9em;
+  text-align: center;
+  
+
+  border-radius: 1.6em;
+  border: hsl(223, 87%, 63%);
+  outline: 0;
+  background: hsl(223, 87%, 63%);
+  
+
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 5px 10px 0px hsl(223deg 100% 88%);
+  /* margin-left: .8em; */
+}
+.ilustracao{
+  width: 24em;
+  height: 16em;
+  margin-top: 3em;
+}
+
+.social {
+  color: hsl(223, 87%, 63%);
+  font-size: 0.8em;
+  width: 20px;
+  text-align: center;
+  line-height: 1.8em;
+  /* border: solid 1px hsl(223, 100%, 88%);
+  border-radius: 25%; */
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-right: 15px;
+  
+}
+@media (max-width:600px){
+   
+  #entra{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    
+
+    height: 3em;
+    width: 25.3em;
+  
+
+  
+    /* border-radius: 1.6em;
+    border: hsl(223, 87%, 63%);
+    outline: 0;
+    background: hsl(223, 87%, 63%);
+  
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 5px 10px 0px hsl(223deg 100% 88%); */
+    margin-top: 1em;
+    padding-left: 40%;
+    
+  }
+ 
+}
